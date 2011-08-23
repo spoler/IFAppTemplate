@@ -33,7 +33,6 @@ static App* _instance = nil;
         DDLogCInfo(@"Aplication init");
 
         requestsQueue = [[ASINetworkQueue alloc] init];
-        
         [ASIHTTPRequest setDefaultTimeOutSeconds:30];
         [ASIHTTPRequest setDefaultCache:[ASIDownloadCache sharedCache]];    
         [requestsQueue setShouldCancelAllRequestsOnFailure:NO];
