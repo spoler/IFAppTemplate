@@ -1,10 +1,10 @@
-[submodule "PSFoundation"]
+[submodule "Classes/Vendor/PSFoundation"]
 	path = Classes/Vendor/PSFoundation
 	url = https://github.com/steipete/PSFoundation.git
-[submodule "asi-http-request"]
+[submodule "Classes/Vendor/asi-http-request"]
 	path = Classes/Vendor/asi-http-request
 	url = https://github.com/pokeb/asi-http-request.git
-[submodule "JSONKit"]
+[submodule "Classes/Vendor/JSONKit"]
 	path = Classes/Vendor/JSONKit
 	url = https://github.com/johnezang/JSONKit.git
 
