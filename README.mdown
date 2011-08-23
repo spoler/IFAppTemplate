@@ -3,6 +3,9 @@ This is a working start point for an iOS App.
 You will also need to get the submodules with the following command:
 
     $ git submodule update --init
+	$ cd Classes/Vendor/PSFoundation
+	$ git chekcout refactor2
+	$ git submodule update --init
 
 Whats in the box?
 -----------------
