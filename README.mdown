@@ -1,0 +1,23 @@
+This is a working start point for an iOS App. 
+
+You will also need to get the submodules with the following command:
+
+    $ git submodule update --init
+
+Whats in the box?
+-----------------
+
+* Xcode agnostic gitignore setup
+
+* PSFoundation:
+https://github.com/steipete/PSFoundation
+
+* Flurry. Just change your statistics key to kFlurryStatisticsKey in AppDefines.h
+http://www.flurry.com/
+
+* FTLocationSimualtor for debugging CoreLocation in the Simulator
+https://github.com/futuretap/FTLocationSimulator
+
+* asi-http-request:
+https://github.com/pokeb/asi-http-request
+

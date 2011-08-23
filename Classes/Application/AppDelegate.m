@@ -6,11 +6,12 @@
 //  Copyright 2011 Infinum. All rights reserved.
 //
 
-#import "IFAppTemplateAppDelegate.h"
-
+#import "AppDelegate.h"
+#import "App.h"
+#import "FlurryAPI.h"
 #import "RootViewController.h"
 
-@implementation IFAppTemplateAppDelegate
+@implementation AppDelegate
 
 
 @synthesize window=_window;
@@ -25,11 +26,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    // Add the navigation controller's view to the window and display.
+    
+    //Flurry statistic
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+    [FlurryAPI startSession:kFlurryStatisticsKey];
+    [FlurryAPI logAllPageViews:self.navigationController];
+    
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+void uncaughtExceptionHandler(NSException *exception) {
+    [FlurryAPI logError:@"Uncaught" message:@"Crash!" exception:exception];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -135,7 +144,7 @@
     {
         return __managedObjectModel;
     }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"IFAppTemplate" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"ApplicationData" withExtension:@"momd"];
     __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];    
     return __managedObjectModel;
 }

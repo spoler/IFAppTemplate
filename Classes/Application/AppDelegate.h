@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IFAppTemplateAppDelegate : NSObject <UIApplicationDelegate> {
+@interface AppDelegate : NSObject <UIApplicationDelegate> {
 
 }
-
+void uncaughtExceptionHandler(NSException *exception);
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
