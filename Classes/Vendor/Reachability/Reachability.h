@@ -1,4 +1,4 @@
-#include "PSFoundation/PSReachability.h"
+#include "PSFoundation/PSFoundation.h"
 
 @interface Reachability : PSReachability
 {

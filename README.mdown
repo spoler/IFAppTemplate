@@ -15,7 +15,8 @@ Whats in the box?
 * PSFoundation:
 https://github.com/steipete/PSFoundation
 
-
 * asi-http-request:
 https://github.com/pokeb/asi-http-request
+
+* Flurry lib
 
