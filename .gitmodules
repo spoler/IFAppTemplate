@@ -8,3 +8,6 @@
 	path = Classes/Vendor/JSONKit
 	url = https://github.com/johnezang/JSONKit.git
 
+[submodule "Classes/Vendor/KissXML"]
+	path = Classes/Vendor/KissXML
+	url = https://code.google.com/p/kissxml/
