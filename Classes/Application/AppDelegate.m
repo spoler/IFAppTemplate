@@ -20,13 +20,15 @@
 @synthesize navigationController=_navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    
+{   
     //Flurry statistic
     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
     [FlurryAPI startSession:kFlurryStatisticsKey];
     [FlurryAPI logAllPageViews:self.navigationController];
-    
+ 
+     //add console logger
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+ 
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
