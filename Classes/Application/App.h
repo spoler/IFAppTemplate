@@ -15,7 +15,6 @@
 + (App*) instance;
 - (void) loadApplicationData;
 
-@property (retain) ASINetworkQueue* requestsQueue;
 @property (nonatomic, retain) NSMutableDictionary* remoteData;
 
 @end

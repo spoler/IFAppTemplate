@@ -1,14 +1,11 @@
 
 #import "App.h"
-#import "ASINetworkQueue.h"
-#import "IFRemoteData.h"
-#import "ASIDownloadCache.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 @implementation App
 
-@synthesize requestsQueue, remoteData;
+@synthesize remoteData;
 static App* _instance = nil;
 
 
@@ -32,12 +29,6 @@ static App* _instance = nil;
     {
         DDLogCInfo(@"Aplication init");
 
-        requestsQueue = [[ASINetworkQueue alloc] init];
-        [ASIHTTPRequest setDefaultTimeOutSeconds:30];
-        [ASIHTTPRequest setDefaultCache:[ASIDownloadCache sharedCache]];    
-        [requestsQueue setShouldCancelAllRequestsOnFailure:NO];
-        [requestsQueue setMaxConcurrentOperationCount:4];
-        [requestsQueue go];
     }
     return self;
 }
@@ -46,15 +37,6 @@ static App* _instance = nil;
 - (void)loadApplicationData
 {
     remoteData = [[NSMutableDictionary alloc] init];
-    
-/*    
-    IFRemoteData *data1 = [[IFRemoteData alloc] initWithURL:@"http://example.com"];
-    data1.key = @"clubs";
-    data1.permanentCache = YES;
-    [data1 downloadInBackground];
-    [remoteData setObject:data1 forKey:data1.key];
-    [data1 release];
- */
     
 }
 

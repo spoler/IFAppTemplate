@@ -37,10 +37,7 @@
 		8A3F52CF140C335C00FBF35C /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F4945140C335000FBF35C /* ASIInputStream.m */; };
 		8A3F52D0140C335C00FBF35C /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F4947140C335000FBF35C /* ASINetworkQueue.m */; };
 		8A3F5313140C335C00FBF35C /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F49D1140C335000FBF35C /* libFlurry.a */; };
-		8A3F5314140C335C00FBF35C /* IFRemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F49D4140C335000FBF35C /* IFRemoteData.m */; };
-		8A3F5315140C335C00FBF35C /* IFRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F49D6140C335000FBF35C /* IFRemoteImage.m */; };
 		8A3F532D140C335C00FBF35C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F49FF140C335000FBF35C /* JSONKit.m */; };
-		8A3F57B5140C335D00FBF35C /* ApplicationData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F522A140C335700FBF35C /* ApplicationData.xcdatamodeld */; };
 		8A3F57B8140C335D00FBF35C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F522F140C335700FBF35C /* main.m */; };
 		8A3F586A140C34E000FBF35C /* libPSFoundation-CoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F5867140C34E000FBF35C /* libPSFoundation-CoreData.a */; };
 		8A3F586B140C34E000FBF35C /* libPSFoundation-UIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F5868140C34E000FBF35C /* libPSFoundation-UIKit.a */; };
@@ -133,14 +130,9 @@
 		8A3F4948140C335000FBF35C /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
 		8A3F49D0140C335000FBF35C /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
 		8A3F49D1140C335000FBF35C /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
-		8A3F49D3140C335000FBF35C /* IFRemoteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFRemoteData.h; sourceTree = "<group>"; };
-		8A3F49D4140C335000FBF35C /* IFRemoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFRemoteData.m; sourceTree = "<group>"; };
-		8A3F49D5140C335000FBF35C /* IFRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFRemoteImage.h; sourceTree = "<group>"; };
-		8A3F49D6140C335000FBF35C /* IFRemoteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFRemoteImage.m; sourceTree = "<group>"; };
 		8A3F49FE140C335000FBF35C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		8A3F49FF140C335000FBF35C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		8A3F5227140C335700FBF35C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		8A3F522B140C335700FBF35C /* ApplicationData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ApplicationData.xcdatamodel; sourceTree = "<group>"; };
 		8A3F522D140C335700FBF35C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A3F522E140C335700FBF35C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3F522F140C335700FBF35C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -265,7 +257,6 @@
 				8A3F5851140C34A600FBF35C /* PSFoundation.xcodeproj */,
 				8A3F4908140C335000FBF35C /* asi-http-request */,
 				8A3F49CB140C335000FBF35C /* FlurryLib */,
-				8A3F49D2140C335000FBF35C /* IFRemote */,
 				8A3F49D7140C335000FBF35C /* JSONKit */,
 				8A3F5226140C335700FBF35C /* Reachability */,
 			);
@@ -316,17 +307,6 @@
 			path = FlurryLib;
 			sourceTree = "<group>";
 		};
-		8A3F49D2140C335000FBF35C /* IFRemote */ = {
-			isa = PBXGroup;
-			children = (
-				8A3F49D3140C335000FBF35C /* IFRemoteData.h */,
-				8A3F49D4140C335000FBF35C /* IFRemoteData.m */,
-				8A3F49D5140C335000FBF35C /* IFRemoteImage.h */,
-				8A3F49D6140C335000FBF35C /* IFRemoteImage.m */,
-			);
-			path = IFRemote;
-			sourceTree = "<group>";
-		};
 		8A3F49D7140C335000FBF35C /* JSONKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,7 +334,6 @@
 		8A3F5229140C335700FBF35C /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				8A3F522A140C335700FBF35C /* ApplicationData.xcdatamodeld */,
 				8A3F522C140C335700FBF35C /* InfoPlist.strings */,
 				8A3F522E140C335700FBF35C /* Info.plist */,
 				8A3F522F140C335700FBF35C /* main.m */,
@@ -479,10 +458,7 @@
 				8A3F52CE140C335C00FBF35C /* ASIHTTPRequest.m in Sources */,
 				8A3F52CF140C335C00FBF35C /* ASIInputStream.m in Sources */,
 				8A3F52D0140C335C00FBF35C /* ASINetworkQueue.m in Sources */,
-				8A3F5314140C335C00FBF35C /* IFRemoteData.m in Sources */,
-				8A3F5315140C335C00FBF35C /* IFRemoteImage.m in Sources */,
 				8A3F532D140C335C00FBF35C /* JSONKit.m in Sources */,
-				8A3F57B5140C335D00FBF35C /* ApplicationData.xcdatamodeld in Sources */,
 				8A3F57B8140C335D00FBF35C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -632,19 +608,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8A3F522A140C335700FBF35C /* ApplicationData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8A3F522B140C335700FBF35C /* ApplicationData.xcdatamodel */,
-			);
-			currentVersion = 8A3F522B140C335700FBF35C /* ApplicationData.xcdatamodel */;
-			path = ApplicationData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 8A3F48A4140C1D3C00FBF35C /* Project object */;
 }
