@@ -1,6 +1,4 @@
-[submodule "Classes/Vendor/PSFoundation"]
-	path = Classes/Vendor/PSFoundation
-	url = https://github.com/steipete/PSFoundation.git
+
 [submodule "Classes/Vendor/asi-http-request"]
 	path = Classes/Vendor/asi-http-request
 	url = https://github.com/pokeb/asi-http-request.git

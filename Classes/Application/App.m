@@ -5,7 +5,6 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 @implementation App
 
-@synthesize remoteData;
 static App* _instance = nil;
 
 
@@ -27,7 +26,8 @@ static App* _instance = nil;
 {
     if(self == [super init]) 
     {
-        DDLogCInfo(@"Aplication init");
+        DDLogInfo(@"Aplication init");
+        [self loadApplicationData];
 
     }
     return self;
@@ -36,7 +36,6 @@ static App* _instance = nil;
 
 - (void)loadApplicationData
 {
-    remoteData = [[NSMutableDictionary alloc] init];
     
 }
 

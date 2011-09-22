@@ -1,7 +1,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
-#import "PSFoundation/PSFoundation.h"
+#import "PSFoundation.h"
 #import "AppDefines.h"
 
 
@@ -14,7 +14,5 @@
 
 + (App*) instance;
 - (void) loadApplicationData;
-
-@property (nonatomic, retain) NSMutableDictionary* remoteData;
 
 @end

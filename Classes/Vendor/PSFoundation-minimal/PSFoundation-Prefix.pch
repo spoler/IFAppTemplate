@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'PSFoundation' target in the 'PSFoundation' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+
+#import "PSMacros.h"
+#import "PSFoundation+Logging.h"
+#import "SynthesizeSingleton.h"
+#endif
