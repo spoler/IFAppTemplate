@@ -1237,7 +1237,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
-					"-all_load",
 					"-lxml2",
 				);
 				SDKROOT = iphoneos;
@@ -1258,7 +1257,6 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
 					"-ObjC",
-					"-all_load",
 					"-lxml2",
 				);
 				SDKROOT = iphoneos;
