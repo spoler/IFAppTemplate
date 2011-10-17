@@ -53,11 +53,6 @@ static App* _instance = nil;
 }
 
 
-- (void)release
-{
-    //do nothing
-}
-
 
 - (id)autorelease
 {

@@ -21,8 +21,6 @@
 		8A3F48E9140C32AB00FBF35C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F48E8140C32AB00FBF35C /* QuartzCore.framework */; };
 		8A3F48EB140C32B500FBF35C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F48EA140C32B500FBF35C /* AVFoundation.framework */; };
 		8A3F48ED140C32BD00FBF35C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F48EC140C32BD00FBF35C /* CFNetwork.framework */; };
-		8A3F48EF140C32D000FBF35C /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F48EE140C32D000FBF35C /* libxml2.2.7.3.dylib */; };
-		8A3F48F1140C32DB00FBF35C /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F48F0140C32DB00FBF35C /* libz.1.2.3.dylib */; };
 		8A3F52A9140C335C00FBF35C /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F48FE140C335000FBF35C /* App.m */; };
 		8A3F52AA140C335C00FBF35C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F4901140C335000FBF35C /* AppDelegate.m */; };
 		8A3F52AB140C335C00FBF35C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3F4903140C335000FBF35C /* MainWindow.xib */; };
@@ -39,8 +37,6 @@
 		8A3F5313140C335C00FBF35C /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F49D1140C335000FBF35C /* libFlurry.a */; };
 		8A3F532D140C335C00FBF35C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F49FF140C335000FBF35C /* JSONKit.m */; };
 		8A3F57B8140C335D00FBF35C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F522F140C335700FBF35C /* main.m */; };
-		8A3F586A140C34E000FBF35C /* libPSFoundation-CoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F5867140C34E000FBF35C /* libPSFoundation-CoreData.a */; };
-		8A3F586B140C34E000FBF35C /* libPSFoundation-UIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F5868140C34E000FBF35C /* libPSFoundation-UIKit.a */; };
 		8A453EE2144BD1EB00264099 /* TPAutoArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A453E18144BD1EB00264099 /* TPAutoArchiver.m */; };
 		8A453EE3144BD1EB00264099 /* NSArray+Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A453E1C144BD1EB00264099 /* NSArray+Filtering.m */; };
 		8A453EE4144BD1EB00264099 /* NSArray+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A453E1E144BD1EB00264099 /* NSArray+PSFoundation.m */; };
@@ -108,6 +104,7 @@
 		8A453F40144BD27E00264099 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A453F35144BD27E00264099 /* UIImage+RoundedCorner.m */; };
 		8A453F41144BD27E00264099 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A453F37144BD27E00264099 /* UIImage+Tint.m */; };
 		8A453F42144BD27E00264099 /* UIImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A453F39144BD27E00264099 /* UIImageHelper.m */; };
+		8A662866144C9D300091D0E1 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A662865144C9D300091D0E1 /* libz.1.dylib */; };
 		8A783F7A142B8DCA0058BFFB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A783F3D142B8DCA0058BFFB /* Reachability.m */; };
 /* End PBXBuildFile section */
 
@@ -127,8 +124,6 @@
 		8A3F48E8140C32AB00FBF35C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8A3F48EA140C32B500FBF35C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8A3F48EC140C32BD00FBF35C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		8A3F48EE140C32D000FBF35C /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
-		8A3F48F0140C32DB00FBF35C /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		8A3F48FD140C335000FBF35C /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
 		8A3F48FE140C335000FBF35C /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
 		8A3F48FF140C335000FBF35C /* AppDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefines.h; sourceTree = "<group>"; };
@@ -166,9 +161,6 @@
 		8A3F522E140C335700FBF35C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3F522F140C335700FBF35C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A3F5230140C335700FBF35C /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		8A3F5867140C34E000FBF35C /* libPSFoundation-CoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPSFoundation-CoreData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A3F5868140C34E000FBF35C /* libPSFoundation-UIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPSFoundation-UIKit.a"; sourceTree = SOURCE_ROOT; };
-		8A3F5869140C34E000FBF35C /* libPSFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPSFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A453E17144BD1EB00264099 /* TPAutoArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPAutoArchiver.h; sourceTree = "<group>"; };
 		8A453E18144BD1EB00264099 /* TPAutoArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPAutoArchiver.m; sourceTree = "<group>"; };
 		8A453E1B144BD1EB00264099 /* NSArray+Filtering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Filtering.h"; sourceTree = "<group>"; };
@@ -314,6 +306,7 @@
 		8A453F37144BD27E00264099 /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
 		8A453F38144BD27E00264099 /* UIImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageHelper.h; sourceTree = "<group>"; };
 		8A453F39144BD27E00264099 /* UIImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageHelper.m; sourceTree = "<group>"; };
+		8A662865144C9D300091D0E1 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
 		8A783F3C142B8DCA0058BFFB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		8A783F3D142B8DCA0058BFFB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -323,10 +316,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3F586A140C34E000FBF35C /* libPSFoundation-CoreData.a in Frameworks */,
-				8A3F586B140C34E000FBF35C /* libPSFoundation-UIKit.a in Frameworks */,
-				8A3F48F1140C32DB00FBF35C /* libz.1.2.3.dylib in Frameworks */,
-				8A3F48EF140C32D000FBF35C /* libxml2.2.7.3.dylib in Frameworks */,
+				8A662866144C9D300091D0E1 /* libz.1.dylib in Frameworks */,
 				8A3F48ED140C32BD00FBF35C /* CFNetwork.framework in Frameworks */,
 				8A3F48EB140C32B500FBF35C /* AVFoundation.framework in Frameworks */,
 				8A3F48E9140C32AB00FBF35C /* QuartzCore.framework in Frameworks */,
@@ -370,11 +360,7 @@
 		8A3F48B0140C1D3C00FBF35C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A3F5867140C34E000FBF35C /* libPSFoundation-CoreData.a */,
-				8A3F5868140C34E000FBF35C /* libPSFoundation-UIKit.a */,
-				8A3F5869140C34E000FBF35C /* libPSFoundation.a */,
-				8A3F48F0140C32DB00FBF35C /* libz.1.2.3.dylib */,
-				8A3F48EE140C32D000FBF35C /* libxml2.2.7.3.dylib */,
+				8A662865144C9D300091D0E1 /* libz.1.dylib */,
 				8A3F48EC140C32BD00FBF35C /* CFNetwork.framework */,
 				8A3F48EA140C32B500FBF35C /* AVFoundation.framework */,
 				8A3F48E8140C32AB00FBF35C /* QuartzCore.framework */,
@@ -1136,6 +1122,7 @@
 		8A3F48A4140C1D3C00FBF35C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Infinum;
 			};
 			buildConfigurationList = 8A3F48A7140C1D3C00FBF35C /* Build configuration list for PBXProject "IFAppTemplate" */;
@@ -1322,6 +1309,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SupportingFiles/Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = SupportingFiles/Info.plist;
 				LIBRARY_SEARCH_PATHS = (
@@ -1343,6 +1331,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SupportingFiles/Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = SupportingFiles/Info.plist;
 				LIBRARY_SEARCH_PATHS = (
