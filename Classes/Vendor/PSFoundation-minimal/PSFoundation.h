@@ -80,6 +80,16 @@
 #import "NSObject+DDExtensions.h"
 #import "NSObject+Proxy.h"
 
+// UIImage /////////////////////////////////////////////////////////////////////////////////////
+
+#import "UIImage+Alpha.h"
+#import "UIImage+MTCache.h"
+#import "UIImage+MTTiling.h"
+#import "UIImage+ProportionalFill.h"
+#import "UIImage+RoundedCorner.h"
+#import "UIImage+Tint.h"
+#import "UIImageHelper.h"
+
 // Logging /////////////////////////////////////////////////////////////////////////////////////
 #import "DDTTYLogger.h"
 #import "DDFileLogger.h"
